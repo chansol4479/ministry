@@ -1,0 +1,137 @@
+html {
+  display: block;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #eceae7;
+}
+
+header {
+  display: flex;
+}
+
+.title {
+  font-size: 1.452025em;
+  text-align: center;
+  padding-left: 40px;
+  margin-top: 10px;
+}
+
+nav{
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  z-index: -1;
+}
+
+.nav_bar {
+  background-color: #373433;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+li{
+  float: left;
+  margin-left: 197px;
+  margin-right: -170px;
+}
+
+li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.homelogo{
+    display: block;
+    max-width:80px;
+    max-height:80px;
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+}
+
+.wrapper {
+	overflow: hidden;
+}
+
+.left_side {
+  float: left;
+}
+
+.right_side {
+  float: right;
+}
+
+
+.contents {
+  z-index: -2;
+	width : 90%;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.location {
+  display: inline;
+  float: left;
+  width: 800px;
+  margin-top: 50px;
+  margin-left: 130px;
+}
+
+.howtouse {
+  float: right;
+}
+
+.location_map {
+  width: 58%;
+  height: auto;
+}
+
+h2 {
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: inline-block;
+}
+
+h3 {
+  font-weight: 100;
+  margin: 0;
+  padding-left: 0;
+  display: inline-block;
+  padding-left: 480px;
+}
+
+
+.adress{
+  padding-left: 295px;
+}
+
+.use1 {
+  display: flex;
+}
+
+.use2 {
+  display: flex;
+}
+
+.use3 {
+  display: flex;
+}
+
+img{
+  display: inline-block;
+}
